@@ -1,24 +1,35 @@
+.container {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    z-index: -999;    
+  }
+
+
 .searchReminder {
-    width:400px;
+    
     border: 1.5px solid rgb(242, 242, 242);
     border-radius: 100px;
     height:45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left:30px;
-    padding-right:5px;
+    padding-left:150px;
+    padding-right:130px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .filter {
+    
     font-size: 14px;
     font-weight: 500;
     margin-right: 20px
 }
 
 .searchFiltersIcon {
-    background-color: #EB4E5F;
+    background-color: #c47215;
     padding:7px;
     border-radius: 50%;
 }
